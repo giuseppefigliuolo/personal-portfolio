@@ -1,0 +1,23 @@
+@import "./variables";
+
+.about {
+  color: white;
+  background-color: $dark-purple;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0rem;
+  h2 {
+    margin-bottom: 3rem;
+  }
+  p {
+    align-self: center;
+    max-width: 1000px;
+    margin-bottom: 3rem;
+    font-size: 1.75rem;
+    font-weight: 300;
+    span {
+      color: $accent;
+      font-weight: 900;
+    }
+  }
+}
